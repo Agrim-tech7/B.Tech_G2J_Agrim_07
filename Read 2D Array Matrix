@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    int a[50][50],r,c,i,j;
+    printf("enter row and coloumb\t");
+    scanf("%d%d",&r,&c);
+    for (i=0;i<r;i++)
+    {
+        for (j=0;j<c;j++)
+        {
+            printf("enter a[%d][%d]=",i,j);
+            scanf("%d",&a[i][j]);
+            }
+            }
+                printf("entered matrix is \n");
+for (i=0;i<r;i++)
+{
+    for(j=0;j<c;j++)
+{ 
+    printf("%d\t",a[i][j]);
+}
+printf("\n");
+}
+return 0;        
+    
+
+    }
+    
